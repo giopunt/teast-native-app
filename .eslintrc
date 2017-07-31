@@ -1,0 +1,45 @@
+{
+  "env": {
+    "browser": true,
+    "jest": true,
+    "mocha": true
+  },
+  "extends": "airbnb",
+  "parser": "babel-eslint",
+  "plugins": [
+    "filenames"
+  ],
+  "rules": {
+    "arrow-parens": ["error", "as-needed"],
+    "filenames/match-regex": [2, "^[a-z-\\.]+$", true],
+    "func-names": 0,
+    "guard-for-in": 0,
+    "import/extensions": [2, { "js": "never" }],
+    "import/no-extraneous-dependencies": 0,
+    "import/prefer-default-export": 0,
+    "jsx-a11y/label-has-for": 0,
+    "linebreak-style":0,
+    "max-len": [
+      2,
+      {
+        "code": 180,
+        "tabWidth": 2,
+        "ignoreUrls": true
+      }
+    ],
+    "no-confusing-arrow": 0,
+    "quote-props": ["error", "consistent-as-needed"],
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react/react-in-jsx-scope": 0,
+    "react/sort-comp": 0
+  },
+
+  "globals": {
+    "styles": true
+  },
+  "settings": {
+    "import/resolver": {
+      "babel-module": {}
+    }
+  }
+}
