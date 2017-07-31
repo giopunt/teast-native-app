@@ -10,7 +10,6 @@ import SearchBar from './components/search-bar';
 import TypeBar from './components/type-bar';
 import VideoList from './components/video-list';
 
-const API_KEY = 'AIzaSyBxod2uHLLOJdqM45o5ntDpFAzZD7--EgE';
 
 const styles = StyleSheet.create({
   layoutContainer: {
